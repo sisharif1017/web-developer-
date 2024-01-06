@@ -1,0 +1,43 @@
+/* common share style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color:rgb(191, 129, 98) ;
+}
+
+.btn-primary{
+    border-radius:5px ;
+    background:rgb(211, 128, 20) ;
+    border: 0px;
+    color: white;
+    font-size: 20px; 
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+
+/* nav relaed style*/
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+nav{
+ color: black;
+ pont size: 45px;
+ pont width:800px; 
+ 
+}
+nav > ul{
+ display: flex;   
+}
+nav li{
+    list-style: none;
+    
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
